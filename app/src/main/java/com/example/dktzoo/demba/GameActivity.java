@@ -14,6 +14,12 @@ public class GameActivity extends AppCompatActivity {
     private Button mActivityGameAnswer3;
     private Button mActivityGameAnswer4;
 
+    private TextView mActivityGame2QuestionText;
+    private Button mActivityGame2Answer1;
+    private Button mActivityGame2Answer2;
+    private Button mActivityGame2Answer3;
+    private Button mActivityGame2Answer4;
+
 
 
     @Override
@@ -27,6 +33,13 @@ public class GameActivity extends AppCompatActivity {
         mActivityGameAnswer4 = (Button) findViewById(R.id.activity_game_answer4_btn);
 
 
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_game2);
+        mActivityGameQuestionText = (TextView) findViewById(R.id.activity_game2_question_text);
+        mActivityGameAnswer1 = (Button) findViewById(R.id.activity_game2_answer1_btn);
+        mActivityGameAnswer2 = (Button) findViewById(R.id.activity_game2_answer2_btn);
+        mActivityGameAnswer3 = (Button) findViewById(R.id.activity_game2_answer3_btn);
+        mActivityGameAnswer4 = (Button) findViewById(R.id.activity_game2_answer4_btn);
 
 
 

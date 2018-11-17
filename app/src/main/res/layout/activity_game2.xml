@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GameActivity">
+    tools:context=".Game2Activity">
     <?xml version="1.0" encoding="utf-8"?>
 
         <LinearLayout
@@ -16,7 +16,7 @@
             tools:context="com.ponroy.florian.topquiz.GameActivity">
 
             <TextView
-                android:id="@+id/activity_game_question_text"
+                android:id="@+id/activity_game2_question_text"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="2"
@@ -31,7 +31,7 @@
                 android:text="Qui a gagner la cdm?"></TextView>
 
             <Button
-                android:id="@+id/activity_game_answer1_btn"
+                android:id="@+id/activity_game2_answer1_btn"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="5dp"
@@ -41,7 +41,7 @@
                 android:text="France"/>
 
             <Button
-                android:id="@+id/activity_game_answer2_btn"
+                android:id="@+id/activity_game2_answer2_btn"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="5dp"
@@ -51,7 +51,7 @@
                 android:text="BELGIQUE"/>
 
             <Button
-                android:id="@+id/activity_game_answer3_btn"
+                android:id="@+id/activity_game2_answer3_btn"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="5dp"
@@ -62,7 +62,7 @@
                 android:text="ANGLETERRE"/>
 
             <Button
-                android:id="@+id/activity_game_answer4_btn"
+                android:id="@+id/activity_game2_answer4_btn"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_margin="5dp"
